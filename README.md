@@ -4,7 +4,7 @@ A modern, responsive gym website with membership plans, trainer service, contact
 
 ## Live Demo
 
-[View Website](https://shayanfitness.netlify.app)
+[View Website](https://shayanfitnessclub.netlify.app)
 
 ## Features
 
