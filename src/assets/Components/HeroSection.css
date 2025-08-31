@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hero-part1{
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  transition: background-image 1s ease-in-out;
+  
+}
+
+.overlay {
+  
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.35); /* reduced opacity */
+  z-index: 1;
+    
+}
+
+
+
+.content {
+  background-color: rgba(0, 0, 0, 0.4); /* was 0.6 */
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+}
+
+.content p {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+p {
+  color: #fff; 
+  text-align: center;
+}
+
+.content {
+ 
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem 3rem;  
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%; 
+
+
+ 
+
+
+
+}
+.page-container{
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffb703;
+   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+   font-family: 'Montserrat', sans-serif;
+   color: #ffb703;
+
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+   font-family: 'Montserrat', sans-serif;
+} 
+
+
+
+/* Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+  .hero-part1 {
+    height: 80vh;
+    padding: 1rem;
+  }
+
+  .content {
+    padding: 1.5rem;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content h3 {
+    font-size: 1.2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+} 
+
+
+/* Mobile devices (≤768px) */
+@media (max-width: 768px) {
+  .hero-part1 {
+    height: 100vh;
+    padding: 1rem;
+    background-position: center top;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .content h3 {
+    font-size: 1.1rem;
+  }
+
+  .content p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+} 
+
+
+
+
+.hero-part1 {
+  transition: background-image 1s ease-in-out;
+}
